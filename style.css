@@ -1,13 +1,26 @@
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 700px;
+  }
+
+  .grid div {
+      height: 100px;
+      width: 100px;
+  }
+  
+  .player-one {
+      background-color: red;
+      border-radius:10px;
+  }
+
+  .player-two {
+    background-color: yellow;
+    border-radius:10px;
+}
+
 body {
-    background-color: limegreen;
-  }
-  
-  td {
-    border: 1px solid black;
-    width: 20px;
-    height: 20px;
-  }
-  
-  tr {
-    border: 1px solid red;
-  }
+    background-color: lightblue;
+}
